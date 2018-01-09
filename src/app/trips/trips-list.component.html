@@ -1,0 +1,9 @@
+<div>
+    <h1>Walking down the memory lane...</h1>
+    <hr/>
+    <div class="row">
+        <div *ngFor="let trip of trips" class="col-md-5">
+            <trip-thumbnail [trip]="trip"></trip-thumbnail>
+        </div>
+    </div>
+</div>

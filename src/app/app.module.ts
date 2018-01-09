@@ -2,17 +2,22 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 
-import { AppComponent } from './app.component';
-
+import { TripsAppComponent } from './trips-app.component';
+import { TripsListComponent } from './trips/trips-list.component';
+import { TripThumbnailComponent } from './trips/trip-thumbnail.component';
+import { NavBarComponent } from './nav/navbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    TripsAppComponent,
+    TripsListComponent,
+    TripThumbnailComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [TripsAppComponent]
 })
 export class AppModule { }

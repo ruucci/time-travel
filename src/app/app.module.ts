@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { TripsAppComponent } from './trips-app.component';
 import { TripsListComponent } from './trips/trips-list.component';
@@ -15,6 +15,7 @@ import { NavBarComponent } from './nav/navbar.component';
     NavBarComponent
   ],
   imports: [
+    NgbModule.forRoot(),
     BrowserModule
   ],
   providers: [],

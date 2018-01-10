@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
         id: 1,
         name: 'Spring 2016',
         date: '03/24/2016',
-        imageUrl: '/app/assets/images/angularconnect-shield.png',
+        imageUrl: './../shared/images/1.png',
         location: {
           city: 'Las Vegas',
           state: 'Nevada'
@@ -53,7 +53,7 @@ import { Component } from '@angular/core';
         id: 2,
         name: 'Summer 2016',
         date: '06/10/2016',
-        imageUrl: '/app/assets/images/angularconnect-shield.png',
+        imageUrl: './../shared/images/1.png',
         location: {
           city: 'Los Angeles',
           state: 'California'
@@ -95,7 +95,7 @@ import { Component } from '@angular/core';
         id: 3,
         name: 'Autumn 2016',
         date: '11/20/2016',
-        imageUrl: '/app/assets/images/angularconnect-shield.png',
+        imageUrl: './../shared/images/1.png',
         location: {
           city: 'San Francisco',
           state: 'California'
@@ -137,7 +137,7 @@ import { Component } from '@angular/core';
         id: 4,
         name: 'Winter 2016',
         date: '12/15/2016',
-        imageUrl: '/app/assets/images/angularconnect-shield.png',
+        imageUrl: './../shared/images/1.png',
         location: {
           city: 'Yosemite National Park',
           state: 'California'
@@ -179,7 +179,7 @@ import { Component } from '@angular/core';
         id: 5,
         name: 'Christmas 2016',
         date: '12/24/2016',
-        imageUrl: '/app/assets/images/angularconnect-shield.png',
+        imageUrl: './../shared/images/1.png',
         location: {
           city: 'Sequoia National Park',
           state: 'California'
@@ -221,7 +221,7 @@ import { Component } from '@angular/core';
         id: 6,
         name: 'New Year 2017',
         date: '01/05/2017',
-        imageUrl: '/app/assets/images/angularconnect-shield.png',
+        imageUrl: './../shared/images/1.png',
         location: {
           city: 'Death Valley National Park',
           state: 'California'
@@ -263,7 +263,7 @@ import { Component } from '@angular/core';
         id: 7,
         name: 'Spring 2017',
         date: '03/24/2017',
-        imageUrl: '/app/assets/images/angularconnect-shield.png',
+        imageUrl: './../shared/images/1.png',
         location: {
           city: 'Grand Canyon National Park',
           state: 'Arizona'
@@ -305,7 +305,7 @@ import { Component } from '@angular/core';
         id: 8,
         name: 'Spring 2017',
         date: '03/26/2017',
-        imageUrl: '/app/assets/images/angularconnect-shield.png',
+        imageUrl: './../shared/images/1.png',
         location: {
           city: 'Arches National Park',
           state: 'Utah'
@@ -347,7 +347,7 @@ import { Component } from '@angular/core';
         id: 9,
         name: 'Spring 2017',
         date: '03/28/2017',
-        imageUrl: '/app/assets/images/angularconnect-shield.png',
+        imageUrl: './../shared/images/1.png',
         location: {
           city: 'Zion National Park',
           state: 'Utah'
@@ -389,7 +389,7 @@ import { Component } from '@angular/core';
         id: 10,
         name: 'Summer 2017',
         date: '06/24/2017',
-        imageUrl: '/app/assets/images/angularconnect-shield.png',
+        imageUrl: './../shared/images/1.png',
         location: {
           city: 'Yosemite National Park',
           state: 'California'
@@ -431,7 +431,7 @@ import { Component } from '@angular/core';
         id: 11,
         name: 'Autumn 2017',
         date: '09/01/2017',
-        imageUrl: '/app/assets/images/angularconnect-shield.png',
+        imageUrl: './../shared/images/1.png',
         location: {
           city: 'Rocky Mountain National Park',
           state: 'Colorado'
@@ -473,7 +473,7 @@ import { Component } from '@angular/core';
         id: 12,
         name: 'Fall 2017',
         date: '11/26/2017',
-        imageUrl: '/app/assets/images/angularconnect-shield.png',
+        imageUrl: './../shared/images/1.png',
         location: {
           city: 'Seattle',
           state: 'Washington'
@@ -515,7 +515,7 @@ import { Component } from '@angular/core';
         id: 13,
         name: 'Winter 2017',
         date: '12/12/2017',
-        imageUrl: '/app/assets/images/angularconnect-shield.png',
+        imageUrl: './../shared/images/1.png',
         location: {
           city: 'New York City',
           state: 'New York'

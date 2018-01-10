@@ -1,8 +1,27 @@
-<div class ="well hoverwell thumbnail">
+<!-- <div class ="well hoverwell thumbnail">
     <h2>{{trip.name}}</h2>
     <div>Date: {{trip.date}}</div>
     <div>
         <span>Location: </span>
-        <span>{{trip.location.city}}, {{trip.location.state}}</span>
+        <span class="pad-left">{{trip.location.city}}, {{trip.location.state}}</span>
+    </div>
+</div>
+ -->
+<!-- <div class="card" style="width: 20rem;">
+    <img class="card-img-top" alt="Card image cap">
+    <div class="card-block">
+        <h4 class="card-title">{{trip.name}}</h4>
+        <p class="card-text">Date: {{trip.date}}</p>
+        <p class="card-text">Location: {{trip.location.city}}, {{trip.location.state}}</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+</div> -->
+
+<div class="card h-100" style="width: 20rem;">
+    <img class="card-img-top" src="https://i.pinimg.com/originals/2d/cc/71/2dcc7105cab3eef318babd61741d1346.jpg" alt="Card image cap" />
+    <div class="card-block">
+        <h4 class="card-title">{{trip.name}}</h4>
+        <p class="card-text">Date: {{trip.date}} <br><span>Location: {{trip.location.city}}, {{trip.location.state}}</span></p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
 </div>
